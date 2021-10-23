@@ -24,7 +24,7 @@ function timeFunction() {
     phaseCell.setValue("3")
   } else if (curPhase == "3"){
     //Process the Data P1
-    //fillTuples()
+    fillTuples()
     updateSheet(P1)
     if (doneBool){
       phaseCell.setValue("4")
